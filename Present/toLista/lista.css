@@ -25,6 +25,33 @@ body {
     text-align: center;
 }
 
+.rotateimg30 {
+  -webkit-transform:rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.rotateimg120 {
+  -webkit-transform:rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+
+.header{
+  font-family: "futura", "helvetica", sans-serif;
+  color: #fafafa;
+  position: absolute;
+  z-index: 10;
+  top: 10%;
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
 .intro {
   font-family: "futura", "helvetica", sans-serif;
   color: #fafafa;
